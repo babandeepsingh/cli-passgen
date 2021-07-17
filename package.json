@@ -1,0 +1,30 @@
+{
+  "name": "cli-passgen",
+  "version": "1.0.1",
+  "description": "CLI based simple password generator",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babandeepsingh/cli-passgen.git"
+  },
+  "keywords": [
+    "Password",
+    "Passgen",
+    "CLI",
+    "Generator",
+    "Gen",
+    "pass"
+  ],
+  "author": "Babandeep Singh",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "clipboardy": "^2.3.0",
+    "commander": "^8.0.0"
+  }
+}
